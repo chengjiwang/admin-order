@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>admin-order</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheets/all.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <nav class="navbar navbar-expand-lg navbar-dark header">
+      <div class="container">
+        <a class="navbar-brand mr-5" href="#">Shoptime</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item mx-2 active">
+              <a class="nav-link" href="#">HOME
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">ORDERS</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">PRODUCT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="overview container my-3">
+      <div class="row justify-content-between">
+        <h2 class="h4 pl-3">OVERVIEW</h2>
+        <div class="pr-3">
+          <span class="mr-2">2018/06/22</span>
+          <span class="mr-2">
+            &#126;
+          </span>
+          <span class="mr-3">2018/06/22</span>
+          <span class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Weekly
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Weekly</a>
+              <a class="dropdown-item" href="#">Monthly</a>
+            </div>
+          </span>
+        </div>
+      </div>
+      <ul class="row overview-item">
+        <li class="col-4 text-center">
+          <div class="item-bg p-3">
+            <h3 class="h6">
+              <i class="fas fa-hand-holding-usd"></i>
+              <span>TOTAL REVENUE</span>
+            </h3>
+            <p class="mb-0 h2 revenue-color">54,540</p>
+          </div>
+        </li>
+        <li class="col-4 text-center">
+          <div class="item-bg p-3">
+            <h3 class="h6">
+              <i class="fas fa-boxes"></i>
+              <span>TOTAL COST</span>
+            </h3>
+            <p class="mb-0 h2 cost-color">12,660</p>
+          </div>
+        </li>
+        <li class="col-4 text-center">
+          <div class="item-bg p-3">
+            <h3 class="h6">
+              <i class="fas fa-money-bill"></i>
+              <span>NET INCOME</span>
+            </h3>
+            <p class="mb-0 h2 income-color">41,880</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="transaction container">
+      <div class="row">
+        <div class="col-md-6 website">
+          <div class="item-bg p-4">
+            <h2 class="h4">Transaction Website</h2>
+            <ul>
+              <li class="d-flex justify-content-between">
+                <div>
+                  <span class="mr-2">
+                    <i class="fab fa-facebook-square icon-web"></i>
+                  </span>
+                  <span>Facebook.com</span>
+                </div>
+                <div>
+                  <span>45,836</span>
+                  <span class="ml-2">20%</span>
+                </div>
+              </li>
+              <li class="d-flex justify-content-between">
+                <div>
+                  <span class="mr-2">
+                    <i class="fab fa-google icon-web"></i>
+                  </span>
+                  <span>google.com</span>
+                </div>
+                <div>
+                  <span>23,582</span>
+                  <span class="ml-2">12%</span>
+                </div>
+              </li>
+              <li class="d-flex justify-content-between">
+                <div>
+                  <span class="mr-2">
+                    <i class="fab fa-facebook-square icon-web"></i>
+                  </span>
+                  <span>Shopify.com</span>
+                </div>
+                <div>
+                  <span>2,489</span>
+                  <span class="ml-2">15%</span>
+                </div>
+              </li>
+              <li class="d-flex justify-content-between">
+                <div>
+                  <span class="mr-2">
+                    <i class="fab fa-wordpress icon-web"></i>
+                  </span>
+                  <span>Wordpress.com</span>
+                </div>
+                <div>
+                  <span>1,057</span>
+                  <span class="ml-2">30%</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 orders">
+          <div class="item-bg">125</div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <script src="javascripts/vendor.js"></script>
+
+</body>
+
+</html>
