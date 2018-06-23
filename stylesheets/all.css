@@ -7297,6 +7297,12 @@ a.text-dark:hover, a.text-dark:focus {
 .income-color {
   color: #4A90E2; }
 
+.plus-color {
+  color: #7ED321; }
+
+.minus-color {
+  color: #D0021B; }
+
 .header {
   background-color: #000000; }
 
@@ -7306,20 +7312,15 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-box-shadow: none;
           box-shadow: none; }
 
-.overview .overview-item {
-  padding-left: 0; }
-  .overview .overview-item li {
-    list-style-type: none; }
-
-.transaction ul {
-  padding-left: 0; }
-  .transaction ul li {
-    padding: 15px 0;
-    list-style-type: none;
-    border-bottom: 1px solid #EBEBEB; }
+.transaction li {
+  border-bottom: 1px solid #EBEBEB; }
 
 .transaction .icon-web {
   vertical-align: middle;
   font-size: 40px; }
+
+.activity {
+  max-width: 1140px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=all.css.map */

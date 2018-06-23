@@ -13,6 +13,12 @@
 .income-color {
   color: $income-color;
 }
+.plus-color {
+  color: $plus-color;
+}
+.minus-color {
+  color: $minus-color;
+}
 
 .header {
   background-color: $admin-bg;
@@ -23,25 +29,20 @@
     outline: none;
     box-shadow: none;
   }
-  .overview-item {
-    padding-left: 0;
-    li {
-      list-style-type: none;
-    }
-  }
 }
 
 .transaction {
-  ul {
-    padding-left: 0;
-    li {
-      padding: 15px 0;
-      list-style-type: none;
-      border-bottom: 1px solid #EBEBEB;
-    }
+  li {
+    // padding: 15px 0;
+    border-bottom: 1px solid #EBEBEB;
   }
   .icon-web {
     vertical-align: middle;
     font-size: 40px;
   }
+}
+
+.activity {
+  max-width: 1140px;
+  margin: 0 auto;
 }
